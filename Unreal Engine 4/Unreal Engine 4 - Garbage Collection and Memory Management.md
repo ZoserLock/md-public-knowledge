@@ -1,4 +1,4 @@
-# Unreal - Garbage Collection and Memory Management
+# Unreal Engine 4 - Garbage Collection and Memory Management
 
 **Unreal Engine 4** has a system to manage the lifetime and memory of its objects. This system is not so intuitive for the people that just starting working on Unreal or the people used to vanilla memory management on C++11 or above. This system affects all objects that inherit from **UObject** and are decorated with the **UPROPERTY()** macro. All objects that meet these conditions will be managed by unreal using a Reference Counting system.
 

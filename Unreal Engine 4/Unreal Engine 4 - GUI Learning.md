@@ -1,5 +1,4 @@
-
-# Unreal Engine - GUI Learning
+# Unreal Engine 4 - GUI Learning
 
 In **Unreal** the GUI can be developed using **C++**, **Blueprints** or both. We think that the best way to create GUI in **Unreal** is separating the programming logic to the graphical part, for this reason we always recommend creating a **C++** Class and use it as parent for the **Blueprint** version of that class and all the logic should be implemented in the C++ counterpart.
 
